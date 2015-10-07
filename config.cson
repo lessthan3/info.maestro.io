@@ -1,0 +1,25 @@
+{
+  admin: '2.3.0'
+  analytics:
+    'contact-form': ['count', 'count_unique']
+    'add-webinar-to-calendar': ['count']
+  author:
+    name: 'Bryant Williams'
+    email: 'b.n.williams@gmail.com'
+  core: '2.2.0'
+  dependencies:
+    'jquery-add-to-calendar': '1.1.0'
+  description: 'Maestro Info'
+  id: 'maestro-info'
+  pages: [
+    'home'
+    'html'
+    'feedback'
+    'release-notes'
+  ]
+  regions: [
+    'footer'
+  ]
+  type: 'app'
+  version: '2.0.0'
+}

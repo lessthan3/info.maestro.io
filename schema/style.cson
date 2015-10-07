@@ -1,0 +1,6 @@
+{
+  color: {type: 'color', default: '#18c0f9'}
+  title_font: 'font'
+  subtitle_font: 'font'
+  body_font: 'font'
+}

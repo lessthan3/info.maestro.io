@@ -1,0 +1,81 @@
+.feedback.object
+  margin 0 auto
+  max-width 100%
+  .title
+    background $color
+    color bw($color)
+    margin-bottom 10px
+    padding 30px 0
+    h1
+      margin 0 auto
+      width 900px
+
+  .tweets
+    border-bottom 1px solid #ddd
+    margin 0 auto
+    width 900px
+    &:after
+      clear both
+      content ''
+      display block
+
+  .tweet
+    background-position center
+    background-size cover
+    border 1px solid $color
+    box-sizing border-box
+    display inline-block
+    float left
+    margin 20px
+    min-height 230px
+    position relative
+    text-align left
+    width 410px
+    > div
+      padding 10px
+      position relative
+    .top
+      background $color
+      color white
+      font-size 15px
+      height 28px
+      a
+        color white
+      .avatar
+        height 50px
+        left 0
+        position absolute
+        top 0
+      .username
+        display inline-block
+        margin-left 50px
+      .posted
+        float right
+    .image
+      margin-bottom 5px
+      width 100%
+    .name
+      font-size 18px
+      text-align right
+    .text
+      font-size 20px
+      line-height 25px
+      margin-bottom 5px
+      min-height 40px
+      white-space pre-wrap
+      word-wrap break-word
+    .footer
+      bottom 0
+      font-size 18px
+      left 10px
+      position absolute
+      > span
+        color $color
+        cursor pointer
+        margin-right 4px
+        padding 4px
+        &:hover
+          background offset($color, 5)
+        > i
+          color $color
+          font-size 15px

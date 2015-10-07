@@ -1,0 +1,36 @@
+#footer
+  bottom 0
+  box-sizing border-box
+  color #ddd
+  left 0
+  margin 20px auto 100px
+  text-align right
+  width 920px
+
+  .copyright
+    margin-right 15px
+  .links > a
+    border-radius 20px
+    color #ddd
+    display inline-block
+    font-size 20px
+    height 25px
+    margin 4px
+    padding 4px
+    width 30px
+
+// hover states for footer
+html.desktop #footer
+  .links > a:hover
+    color $color
+
+@media (max-width: 980px)
+  #footer
+    background #2a2939
+    margin 0
+    padding 40px 20px
+    position relative
+    text-align center
+    width 100%
+    .links > a
+      color #ddd

@@ -1,0 +1,8 @@
+{
+  copyright: 'string'
+  links: [{
+    name: 'legend'
+    link: 'string'
+    icon: 'icon'
+  }]
+}

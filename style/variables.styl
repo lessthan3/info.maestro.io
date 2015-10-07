@@ -1,0 +1,35 @@
+@import 'nib'
+
+bw($color)
+  h = unit(hue($color), '')
+  s = unit(saturation($color), '')
+  l = unit(lightness($color), '')
+
+  // if luminosity is high, use black
+  if l > 65
+    return black
+
+  // if luminosity or saturation are really low, use white
+  if l < 35 or s < 35
+    return white
+
+  // special case certain hues to black for readability
+  if l > 60 and (10 < h and h < 200)
+    return black
+  if l > 50 and (30 < h and h < 160)
+    return black
+  if l > 40 and (50 < h and h < 120)
+    return black
+
+  // else white
+  return white
+
+offset($color, intensity = 5)
+  if dark($color)
+    return lighten($color, intensity)
+  else
+    return darken($color, intensity)
+
+$title_font = 'open-sans-regular' unless $title_font is defined
+$body_font = 'open-sans-regular' unless $body_font is defined
+$color = #18c0f9 unless $color is defined

@@ -1,0 +1,9 @@
+{
+  logo: 'string'
+  title: 'string'
+  versions: [
+    title: 'legend'
+    date: 'string'
+    content: 'html'
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  banner:
+    background: 'image'
+    logo: 'image'
+    title: 'string'
+    subtitle: 'string'
+    button_text: 'string'
+  intro:
+    active: 'true'
+    title: 'string'
+    description: 'text'
+    image: 'image'
+  video:
+    active: 'true'
+    title: 'string'
+    embed: 'text'
+  features:
+    active: 'true'
+    title: 'string'
+    description: 'text'
+    features: [
+      name: 'legend'
+      icon: 'icon'
+      description: 'text'
+    ]
+  use_cases:
+    active: 'true'
+    title: 'string'
+    description: 'text'
+    examples: [
+      name: 'legend'
+      image: 'image'
+      client:
+        name: 'string'
+        image: 'image'
+        description: 'text'
+    ]
+  channels:
+    active: 'true'
+    title: 'string'
+    description: 'text'
+    channels: [
+      name: 'legend'
+      image: 'image'
+      link: 'string'
+      description: 'text'
+    ]
+  webinar:
+    active: 'true'
+    title: 'string'
+    subtitle: 'string'
+    time: 'string'
+  contact:
+    title: 'string'
+    description: 'text'
+    address: 'text'
+    phone: 'string'
+    email: 'string'
+}
